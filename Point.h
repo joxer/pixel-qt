@@ -8,7 +8,10 @@ class Position{
 public:
   int x,y;
   Position(int, int);
-
+  Position();
+  void setX(int);
+  void setY(int);
+  void setXY(int, int);
 };
 
 
@@ -20,7 +23,7 @@ public:
   Point(int, int);
   //  ~Point();
 
-  void paintEvent(QpaintEvent*);
+  void paintEvent(QPaintEvent*);
   
 
 
