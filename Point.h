@@ -2,7 +2,7 @@
 #include <QWidget>
 #include <QPainter>
 #include <QMap>
-
+#include <QRgb>
 
 class Position{
 public:
@@ -17,8 +17,8 @@ class Point : public QWidget {
 public:
   int maxWindowSizeWidth, maxWindowSizeHeight ;
   QVector<Position> positions;
-  Point();
-  ~Point();
+  Point(int, int);
+  //  ~Point();
 
   void paintEvent(QpaintEvent*);
   

@@ -1,5 +1,5 @@
 #include <QApplication>
-
+#include "Point.cpp"
 int main(int argc, char **argv){
 
   QApplication app(argc, argv);
